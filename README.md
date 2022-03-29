@@ -1,6 +1,3 @@
-# vsRobloxButNotReally
-get it its called vs roblox buit it niot really roblox!~!!!!!
+# Vs Trevor (Source Code)
 
-
-
-Yeah, just a cool readme file (:
+It's the source code, what more do you want me to say?
