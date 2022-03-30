@@ -4189,7 +4189,7 @@ class PlayState extends MusicBeatState
 
 				switch(note.noteType) {
 
-					/*case 'Darkness Note':
+					case 'Darkness Note':
 						var shadow:FlxSprite = new FlxSprite(0).loadGraphic(Paths.image('lurkingShadow'));
 						//shadow.screenCenter();
 						shadow.scale.x = 1.1;
@@ -4222,9 +4222,7 @@ class PlayState extends MusicBeatState
 					case 'Poison Note':
 						healthDrain = 0.20
 						
-						;*/
-					//Note Mechanics for custom engine later when i make the assets
-
+						;
 					case 'Hurt Note': //Hurt note
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
