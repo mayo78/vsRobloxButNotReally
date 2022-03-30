@@ -585,16 +585,16 @@ class TitleState extends MusicBeatState
 			{
 				case 1:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Vs roblox but nan really by'], 15);
 					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText(['Theoyeah', 'Mayo78', 'DEMOLITIONDON96', '']);
 					#end
 				// credTextShit.visible = true;
 				case 3:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('Theoyeah', 15);
+					addMoreText('Mayo78', 15);
+					addMoreText('DEMOLITIONDON96', 15);
 					#else
 					addMoreText('present');
 					#end
@@ -634,13 +634,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('VS roblox');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('But');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('really'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
