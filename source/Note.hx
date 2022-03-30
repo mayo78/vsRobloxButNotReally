@@ -104,7 +104,7 @@ class Note extends FlxSprite
 
 		if(noteData > -1 && noteType != value) {
 			switch(value) {
-				/*case 'Flip Note':
+				case 'Flip Note':
 					ignoreNote = mustPress;
 					hitCausesMiss = true;
 					reloadNote('FLIP');
@@ -135,8 +135,7 @@ class Note extends FlxSprite
 					noteSplashTexture = 'POISONnoteSplashes';
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
-					colorSwap.brightness = 0;*/
-					//CODING IN THIS LATER
+					colorSwap.brightness = 0;
 				case 'Hurt Note':
 					ignoreNote = mustPress;
 					reloadNote('HURT');
