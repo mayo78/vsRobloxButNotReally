@@ -89,8 +89,8 @@ class PauseSubState extends MusicBeatSubstate
 		var composerCredit:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
 		switch(PlayState.SONG.song)
 		{
-			case 'Blueshirt':
-			composer = 'By Mr. Noob';
+			case 'Atrocity':
+			composer = 'By Saster';
 		}
 		composerCredit.text += composer;
 		composerCredit.scrollFactor.set();
@@ -101,8 +101,8 @@ class PauseSubState extends MusicBeatSubstate
 		var charterCredit:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
 		switch(PlayState.SONG.song)
 		{
-			case 'Blueshirt':
-			charter = 'Chart by [UNKNOWN]';
+			case 'Atrocity':
+			charter = 'Chart by DEMOLITIONDON96';
 		}
 		charterCredit.text += charter;
 		charterCredit.scrollFactor.set();
